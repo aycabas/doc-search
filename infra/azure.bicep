@@ -60,6 +60,58 @@ resource webApp 'Microsoft.Web/sites@2021-02-01' = {
           name: 'BOT_PASSWORD'
           value: botAadAppClientSecret
         }
+        {
+          name: 'TEAMS_APP_ID'
+          value: 'TEAMS_APP_ID'
+        }
+        {
+          name: 'BOT_AZURE_APP_SERVICE_RESOURCE_ID'
+          value: 'BOT_AZURE_APP_SERVICE_RESOURCE_ID'
+        }
+        {
+          name: 'BOT_DOMAIN'
+          value: 'BOT_DOMAIN'
+        }
+        {
+          name: 'AZURE_OPENAI_SERVICE_NAME'
+          value: 'AZURE_OPENAI_SERVICE_NAME'
+        }
+        {
+          name: 'AZURE_OPENAI_DEPLOYMENT_NAME'
+          value: 'AZURE_OPENAI_DEPLOYMENT_NAME'
+        }
+        {
+          name: 'AZURE_OPENAI_API_VERSION'
+          value: 'AZURE_OPENAI_API_VERSION'
+        }
+        {
+          name: 'AZURE_OPENAI_API_KEY'
+          value: 'AZURE_OPENAI_API_KEY'
+        }
+        {
+          name: 'AZURE_SEARCH_ENDPOINT'
+          value: 'AZURE_SEARCH_ENDPOINT'
+        }
+        {
+          name: 'AZURE_SEARCH_ADMIN_KEY'
+          value: 'AZURE_SEARCH_ADMIN_KEY'
+        }
+        {
+          name: 'AZURE_SEARCH_INDEX_NAME'
+          value: 'AZURE_SEARCH_INDEX_NAME'
+        }
+        {
+          name: 'TEAMS_APP_TENANT_ID'
+          value: 'TEAMS_APP_TENANT_ID'
+        }
+        {
+          name: 'M365_TITLE_ID'
+          value: 'M365_TITLE_ID'
+        }
+        {
+          name: 'M365_APP_ID'
+          value: 'M365_APP_ID'
+        }
       ]
       ftpsState: 'FtpsOnly'
     }
