@@ -11,8 +11,8 @@
         "termsOfUseUrl": "https://www.example.com/privacy"
     },
     "icons": {
-        "color": "https://cdn-icons-png.flaticon.com/512/3724/3724788.png",
-        "outline": "https://cdn-icons-png.flaticon.com/512/3724/3724788.png"
+        "color": "color.png",
+        "outline": "outline.png"
     },
     "name": {
         "short": "EcoGroceries Call Center",
